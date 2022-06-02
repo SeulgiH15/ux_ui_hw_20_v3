@@ -1,0 +1,131 @@
+body{
+    font-family: 'nunito', sans-serif;
+}
+
+/*navigaion*/
+nav {
+    display: flex;
+    background-color: #FDFDFD;
+    justify-content: space-between;
+    height:50px;
+    padding:0px 40px;
+    padding-bottom: 10px;
+  }
+.navlink {
+    padding: 0px 15px;
+    background-color: #FDFDFD;
+    margin-left: 20px;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+    font-weight:bold; 
+}
+
+.leftnav{
+    display:flex;
+    height:50px;
+}
+
+.navsocialmedia{
+    margin-left: 20px; 
+    height: 50px;
+    width: auto;
+}
+.navlogo{
+    margin-right:200px;
+    height: 50px;
+    width: auto;
+}
+
+/*hero*/
+.hero{
+    display:flex;
+    padding-top: 50px;
+    background-color: #c9d1f1;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding-left: 50px;
+    
+}
+.heroimage{
+    width: 45vw;
+    padding: 50px;
+    height:40vw;
+    }
+    
+.bio{
+    width: 50%;
+    color:#333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(1em,1em);
+    }
+
+
+
+
+/*footer*/
+footer {
+    background-color:#abadd7;
+    display: flex;
+    align-content: center;
+    bottom: 0;
+    height: 200px;
+    padding: 0px 40px;
+    font-weight: 100;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footercontainer{
+    height:50px;
+    font-size: medium;
+    display:table;
+    z-index: 1;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .nav{
+        padding:0px 0px;
+        
+    }
+    .navlogo{
+        margin-right: 0px;
+    }
+    .navsocialmedia{
+        height: auto;
+        width: 30px;
+    }
+    .rightnav{
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+@media only screen and (max-width: 850px) {
+    nav{
+        padding:0px 0px;
+    }
+    .navlogo{
+        margin-right: 0px;
+    }
+    .navsocialmedia{
+        height: auto;
+        width: 30px;
+    }
+    .rightnav{
+        display: flex;
+        align-items: center;
+    }
+}

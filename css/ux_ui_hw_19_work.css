@@ -1,0 +1,207 @@
+body{
+    font-family: 'nunito', sans-serif;
+}
+
+/*navigaion*/
+nav {
+    display: flex;
+    background-color: #FDFDFD;
+    justify-content: space-between;
+    height:50px;
+    padding:0px 40px;
+    padding-bottom: 10px;
+  }
+.navlink {
+    padding: 0px 15px;
+    background-color: #FDFDFD;
+    margin-left: 20px;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+    font-weight:bold; 
+}
+
+.leftnav{
+    display:flex;
+    height:50px;
+}
+
+.navsocialmedia{
+    margin-left: 20px; 
+    height: 50px;
+    width: auto;
+}
+.navlogo{
+    margin-right:200px;
+    height: 50px;
+    width: auto;
+}
+
+/*hero*/
+.mycasestudy{
+    display:flex;
+    padding: 100px;
+    height:auto;
+    background-color: #CECFE9;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+.casestudycards{
+    display:flex;
+    padding: 100px;
+    height:auto;
+    background-color: #fdfdfd;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+    max-width: 100rem;
+    align-items: center;
+    margin: 0 auto;
+}
+.casestudycards > div > p{
+    padding:0 1em;
+}
+
+.card1{
+    display: flex;
+    width:500px;
+    height:500px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FDFDFD;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px rgb(224, 224, 224);
+}
+.craimg{
+    display: flex;
+    width: 300px;
+    padding: 30px;
+    height:200px;
+    justify-content:left;
+    text-align: center;
+    }
+
+.card2{
+    display: flex;
+    width:500px;
+    height:500px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FDFDFD(127, 35, 141);
+    flex-direction: column;
+    box-shadow: 2px 2px 2px rgb(224, 224, 224);
+}
+.vostoksosimg{
+    display: flex;
+    width: 250px;
+    padding: 30px;
+    height:200px;
+    justify-content:left;
+    text-align: center;
+}
+
+.card3{
+    display: flex;
+    width:500px;
+    height:500px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fdfdfd(46, 171, 40);
+    flex-direction: column;
+    box-shadow: 2px 2px 2px rgb(224, 224, 224);
+}
+.nomnomimg{
+    display: flex;
+    width: 200px;
+    padding: 30px;
+    height:200px;
+    justify-content:left;
+    text-align: center;
+}        
+  
+.button{
+    background-color: #153397; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    cursor:pointer;
+}
+.button:hover{
+    background-color: white; 
+    color: #1e2c5c;
+    border: 2px solid #1e2c5c;
+}
+
+/*footer*/
+footer {
+    background-color:#CECFE9;
+    display: flex;
+    align-content: center;
+    bottom: 0;
+    height: 200px;
+    padding: 0px 40px;
+    font-weight: 100;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footercontainer{
+    height:50px;
+    font-size: medium;
+    display:table;
+    z-index: 1;
+}
+.nextwork{
+    position:relative;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .nav{
+        padding:0px 0px;
+        
+    }
+    .navlogo{
+        margin-right: 0px;
+    }
+    .navsocialmedia{
+        height: auto;
+        width: 30px;
+    }
+    .rightnav{
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+@media only screen and (max-width: 850px) {
+    nav{
+        padding:0px 0px;
+    }
+    .navlogo{
+        margin-right: 0px;
+    }
+    .navsocialmedia{
+        height: auto;
+        width: 30px;
+    }
+    .rightnav{
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,0 +1,99 @@
+body{
+    font-family: 'nunito', sans-serif;
+}
+
+/*navigaion*/
+nav {
+    display: flex;
+    background-color: #FDFDFD;
+    justify-content: space-between;
+    height:50px;
+    padding:0px 40px;
+  }
+.navlink {
+    padding: 0px 15px;
+    background-color: #FDFDFD;
+    margin-left: 20px;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+    font-weight:bold; 
+}
+
+.leftnav{
+    display:flex;
+    height:50px;
+}
+
+.navsocialmedia{
+    margin-left: 20px; 
+    height: 50px;
+    width: auto;
+}
+.navlogo{
+    margin-right:200px;
+    height: 50px;
+    width: auto;
+}
+
+/*hero*/
+.hero{
+    display:flex;
+    background-color: #fdfdfd;
+    padding:50px;
+    justify-content: space-between;
+}
+.heroimg{
+    width: 100%;
+    height:auto;
+}
+
+.heroheading{
+    color:blue;
+}
+
+
+.submitbtn{
+    display: flex;
+    background-color: rgb(28, 75, 184);
+    color:white;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+  
+.historyimg{
+    padding:2rem;
+    width:100%;
+    height:auto;
+}
+.histodyimgdscrp1{
+    background-color: #596A91;
+    height: 50px;
+    width: 100%;
+    color:white;
+    padding-left:70px;
+}
+
+.histodyimgdscrp2{
+    background-color: #596A91;
+    height: 30px;
+    width: 100%;
+    color:white;
+    padding-left:70px;
+}
+.footer{
+    padding-top: 10rem;
+}
+.form{
+    /* display:flex; */
+    background-color: #CECFE9;
+    width:100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding:5rem 5rem 5rem
+}
