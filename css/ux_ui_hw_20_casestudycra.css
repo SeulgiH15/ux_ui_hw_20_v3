@@ -18,6 +18,15 @@ nav {
     color:black;
     font-weight:bold; 
 }
+.hero{
+    background-color:#abadd7;
+    padding-top:40px;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+}
+.rowspace{
+    margin-bottom: 100px;
+}
 
 .leftnav{
     display:flex;
@@ -35,11 +44,15 @@ nav {
     width: auto;
 }
 
-.redeisgncradescription{
-    align-items:right;
-    justify-content: right;
+.newcra1{
+    width:100%;
+    height: auto;
+    
 }
 
+body{
+    font-family: 'nunito', sans-serif;
+}
 
 /*footer*/
 footer {
