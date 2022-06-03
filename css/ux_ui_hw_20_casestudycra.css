@@ -35,6 +35,12 @@ nav {
     width: auto;
 }
 
+.redeisgncradescription{
+    align-items:right;
+    justify-content: right;
+}
+
+
 /*footer*/
 footer {
     background-color:#abadd7;
