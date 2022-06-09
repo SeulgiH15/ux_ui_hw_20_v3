@@ -10,9 +10,8 @@ nav {
     display:flex;
     padding: 0px 15px;
     background-color: #FDFDFD;
-    margin-left: 200px;
+    margin-left: 10px;
     height: 100%;
-    
     align-items: center;
     text-decoration: none;
     color:black;
@@ -24,11 +23,22 @@ nav {
     padding-bottom: 40px;
     margin-bottom: 100px;
 }
+
+.work{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+hr.solid{
+    border-top:3px solid #abadd7;
+    width:60%;
+}
 .rowspace{
     margin-bottom: 100px;
 }
 
-.leftnav{
+.rightnav{
     display:flex;
     height:50px;
 }
@@ -42,6 +52,10 @@ nav {
     margin-right:200px;
     height: 50px;
     width: auto;
+}
+.newcra1{
+    width:100%;
+    height:auto;
 }
 
 .newcra3{
@@ -62,8 +76,9 @@ body{
 }
 
 /*footer*/
-footer {
+.footer {
     background-color:#abadd7;
+    width: 100%;
     display: flex;
     align-content: center;
     bottom: 0;

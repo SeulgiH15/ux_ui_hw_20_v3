@@ -88,6 +88,9 @@ nav {
 .footer{
     padding-top: 10rem;
 }
+.footerbackground{
+    background-color: #CECFE9;
+}
 .form{
     /* display:flex; */
     background-color: #CECFE9;
