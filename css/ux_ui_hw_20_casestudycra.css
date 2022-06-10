@@ -17,6 +17,11 @@ nav {
     color:black;
     font-weight:bold; 
 }
+
+.rightnav{
+    display:flex;
+    height:50px;
+}
 .hero{
     background-color:#abadd7;
     padding-top:40px;
@@ -36,11 +41,6 @@ hr.solid{
 }
 .rowspace{
     margin-bottom: 100px;
-}
-
-.rightnav{
-    display:flex;
-    height:50px;
 }
 
 .navsocialmedia{
